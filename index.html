@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Redirect</title>
+  <script>
+    const links = [
+      "https://link.webropolsurveys.com/S/0DD31548C430AE9D",
+      "https://link.webropolsurveys.com/S/23B6B6BDA4F0CBE9"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * links.length);
+    window.location.href = links[randomIndex];
+  </script>
+</head>
+<body>
+  <p>Redirecting to survey...</p>
+</body>
+</html>
